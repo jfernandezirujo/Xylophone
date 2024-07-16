@@ -24,4 +24,8 @@ enum Constants {
   static let aNotePadding: CGFloat = 40
   static let bNotePadding: CGFloat = 48
   static let soundExtension: String = "wav"
+  static let cornerRadius: CGFloat = 12
+  static let pressedOpacity: CGFloat = 0.5
+  static let initialOpacity: CGFloat = 1
+  static let time: CGFloat = 0.5
 }

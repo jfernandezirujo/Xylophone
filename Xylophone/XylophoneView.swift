@@ -9,6 +9,7 @@ import SwiftUI
 
 struct XylophoneView: View {
   
+  // MARK: - Properties
   @EnvironmentObject private var viewModel: XylophoneViewModel
   
   // MARK: - body
