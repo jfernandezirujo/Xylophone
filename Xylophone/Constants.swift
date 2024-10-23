@@ -5,7 +5,7 @@
 //  Created by Julieta Fernandez Irujo on 16/07/2024.
 //
 
-import Foundation
+import struct Foundation.CGFloat
 
 enum Constants {
   static let verticalSpacing: CGFloat = 5

@@ -9,7 +9,7 @@ import SwiftUI
 
 enum Notes: CaseIterable {
   case c, d, e, f, g, a, b
-  
+
   var color: Color {
     switch self {
     case .c:
@@ -28,7 +28,7 @@ enum Notes: CaseIterable {
       return .purple
     }
   }
-  
+
   var text: String {
     switch self {
     case .c:
@@ -47,7 +47,7 @@ enum Notes: CaseIterable {
       return Constants.bNote
     }
   }
-  
+
   var padding: CGFloat {
     switch self {
     case .c: 

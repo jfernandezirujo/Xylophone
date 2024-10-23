@@ -9,15 +9,15 @@ import SwiftUI
 
 @main
 struct XylophoneApp: App {
-  
+
   // MARK: - Properties
   private let viewModel: XylophoneViewModel
-  
+
   // MARK: - init
   init() {
     viewModel = XylophoneViewModel()
   }
-  
+
   // MARK: - body
   var body: some Scene {
     WindowGroup {

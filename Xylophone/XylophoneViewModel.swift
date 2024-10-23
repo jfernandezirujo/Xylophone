@@ -5,13 +5,13 @@
 //  Created by Julieta Fernandez Irujo on 16/07/2024.
 //
 
-import AVFoundation
+import AVFoundation.AVAudioPlayer
 
 class XylophoneViewModel: ObservableObject {
-  
+
   // MARK: - Properties
   private var player: AVAudioPlayer?
-  
+
   // MARK: - Methods
   func playSound(note: String) {
     guard let url: URL = Bundle.main.url(forResource: note,

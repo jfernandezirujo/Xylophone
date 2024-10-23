@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct XylophoneView: View {
-  
+
   // MARK: - Properties
   @EnvironmentObject private var viewModel: XylophoneViewModel
-  
+
   // MARK: - body
   var body: some View {
     VStack(spacing: Constants.verticalSpacing) {
@@ -21,7 +21,6 @@ struct XylophoneView: View {
                  horizontalPadding: note.padding,
                  tapGesture: {
           viewModel.playSound(note: note.text)
-          print(note.text)
         })
       }
     }
