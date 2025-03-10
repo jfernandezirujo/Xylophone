@@ -22,6 +22,7 @@
 		3956FABF2C46BDE200D22B4F /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956FABE2C46BDE200D22B4F /* NoteView.swift */; };
 		3956FAC12C46C8E400D22B4F /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956FAC02C46C8E400D22B4F /* Notes.swift */; };
 		3956FAC32C46D4BD00D22B4F /* XylophoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956FAC22C46D4BD00D22B4F /* XylophoneViewModel.swift */; };
+		3971CCD52D7F221C00E214C4 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3971CCD42D7F221C00E214C4 /* NoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		3956FABE2C46BDE200D22B4F /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 		3956FAC02C46C8E400D22B4F /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		3956FAC22C46D4BD00D22B4F /* XylophoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewModel.swift; sourceTree = "<group>"; };
+		3971CCD42D7F221C00E214C4 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				3956FAC02C46C8E400D22B4F /* Notes.swift */,
 				3956FABE2C46BDE200D22B4F /* NoteView.swift */,
 				3956FABC2C46BCCD00D22B4F /* Constants.swift */,
+				3971CCD42D7F221C00E214C4 /* NoteModel.swift */,
 				3956FAAD2C46B1F100D22B4F /* Sounds */,
 				3956FA842C46B0BE00D22B4F /* Assets.xcassets */,
 				3956FA862C46B0BE00D22B4F /* Preview Content */,
@@ -188,6 +191,7 @@
 				3956FA832C46B0BD00D22B4F /* XylophoneView.swift in Sources */,
 				3956FAC32C46D4BD00D22B4F /* XylophoneViewModel.swift in Sources */,
 				3956FAC12C46C8E400D22B4F /* Notes.swift in Sources */,
+				3971CCD52D7F221C00E214C4 /* NoteModel.swift in Sources */,
 				3956FA812C46B0BD00D22B4F /* XylophoneApp.swift in Sources */,
 				3956FABF2C46BDE200D22B4F /* NoteView.swift in Sources */,
 				3956FABD2C46BCCD00D22B4F /* Constants.swift in Sources */,

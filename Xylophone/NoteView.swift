@@ -10,23 +10,21 @@ import SwiftUI
 struct NoteView: View {
   
   // MARK: - Properties
-  let color: Color
-  let text: String
-  let horizontalPadding: CGFloat
+  let note: NoteModel
   let tapGesture: () -> Void
   @State private var isPressed: Bool = false
   
   // MARK: - body
   var body: some View {
     ZStack {
-      Color(color)
+      Color(note.color)
         .cornerRadius(Constants.cornerRadius)
         .opacity(isPressed ? Constants.pressedOpacity : Constants.initialOpacity)
-      Text(text)
+      Text(note.text)
         .font(.largeTitle)
         .foregroundStyle(.white)
     }
-    .padding(.horizontal, horizontalPadding)
+    .padding(.horizontal, note.horizontalPadding)
     .onTapGesture {
       notePressed()
       tapGesture()

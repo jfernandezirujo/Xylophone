@@ -16,15 +16,15 @@ enum Notes: CaseIterable {
       return .red
     case .d:
       return .orange
-    case .e: 
+    case .e:
       return .yellow
-    case .f: 
+    case .f:
       return .green
-    case .g: 
+    case .g:
       return .indigo
     case .a:
       return .blue
-    case .b: 
+    case .b:
       return .purple
     }
   }
@@ -33,28 +33,28 @@ enum Notes: CaseIterable {
     switch self {
     case .c:
       return Constants.cNote
-    case .d: 
+    case .d:
       return Constants.dNote
-    case .e: 
+    case .e:
       return Constants.eNote
-    case .f: 
+    case .f:
       return Constants.fNote
-    case .g: 
+    case .g:
       return Constants.gNote
-    case .a: 
+    case .a:
       return Constants.aNote
-    case .b: 
+    case .b:
       return Constants.bNote
     }
   }
 
   var padding: CGFloat {
     switch self {
-    case .c: 
+    case .c:
       return Constants.cNotePadding
     case .d:
       return Constants.dNotePadding
-    case .e: 
+    case .e:
       return Constants.eNotePadding
     case .f:
       return Constants.fNotePadding
@@ -65,5 +65,12 @@ enum Notes: CaseIterable {
     case .b:
       return Constants.bNotePadding
     }
+  }
+
+  var model: NoteModel {
+    NoteModel(
+      color: self.color,
+      text: self.text,
+      horizontalPadding: self.padding)
   }
 }

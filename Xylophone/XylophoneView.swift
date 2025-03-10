@@ -16,12 +16,12 @@ struct XylophoneView: View {
   var body: some View {
     VStack(spacing: Constants.verticalSpacing) {
       ForEach(Notes.allCases, id: \.self) { note in
-        NoteView(color: note.color,
-                 text: note.text,
-                 horizontalPadding: note.padding,
-                 tapGesture: {
-          viewModel.playSound(note: note.text)
-        })
+        NoteView(
+          note: note.model,
+          tapGesture: {
+            viewModel.playSound(note: note.text)
+          }
+        )
       }
     }
     .padding()
